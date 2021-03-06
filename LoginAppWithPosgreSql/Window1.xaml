@@ -1,0 +1,26 @@
+﻿<Window x:Class="LoginAppWithPosgreSql.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginAppWithPosgreSql"
+        mc:Ignorable="d"
+        Title="Window1" Height="320.626" Width="345.313">
+    <Grid Margin="0,0,2,-1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="241*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="48*"/>
+            <ColumnDefinition Width="287*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="get_button" Content="Tekshirish" HorizontalAlignment="Left" Margin="75,145,0,0" VerticalAlignment="Top" Width="74" Grid.Column="1" Height="20" Grid.Row="1" Click="get_button_Click"/>
+        <Label Content="Exat-Schet:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="4,57,0,0" Grid.Column="1" Height="26" Width="68" Grid.Row="1"/>
+        <TextBox x:Name="exat_summ" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,57,0,0" Grid.Column="1" Grid.Row="1" IsReadOnly="True"/>
+        <Label Content="Ijro-Chet:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="4,95,0,0" Grid.Column="1" Height="26" Width="59" Grid.Row="1"/>
+        <TextBox x:Name="ijro_summ" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,95,0,0" Grid.Column="1" Grid.Row="1" IsReadOnly="True"/>
+        <TextBox x:Name="newtextbox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1" Margin="29,190,0,0" Grid.Row="1"/>
+
+    </Grid>
+</Window>
